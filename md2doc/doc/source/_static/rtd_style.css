@@ -1,0 +1,31 @@
+.rst-content img{
+    height: 400px !important;
+}
+.rst-content a.reference.internal{
+    line-height:40px;
+}
+div.row{
+    padding-bottom:60px;
+}
+div.document{
+    width:90%;
+    max-width:1300px;
+}
+div.wy-nav-content{
+    max-width: 1600px;
+    width:90%;
+    font-size:120%;
+}
+h1{
+    font-size: 200%;
+}
+div.highlight pre{
+    font-size: 16px;
+}
+#pageobjects-api p, li{
+    font-size: 110%;
+    line-height: 35px; !important
+}
+footer{
+    font-size: 60%;
+}
