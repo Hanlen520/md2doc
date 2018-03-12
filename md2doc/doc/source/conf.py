@@ -134,7 +134,7 @@ def setup(app):
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'AppiumAPIDocument'
+htmlhelp_basename = 'MD2DOC'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -161,7 +161,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'AppiumAPIdocument.tex', u'Appium API Documentation',
+    (master_doc, 'MD2DOC.tex', u'MD2DOC',
      u'fengzhangchi', 'manual'),
 ]
 
@@ -171,7 +171,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'appiumapidocument', u'Appium API Documentation',
+    (master_doc, 'MD2DOC', u'MD2DOC',
      [author], 1)
 ]
 
@@ -182,8 +182,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'AppiumAPIdocument', u'Appium API Documentation',
-     author, 'AppiumAPIdocument', 'One line description of project.',
+    (master_doc, 'MD2DOC', u'MD2DOC',
+     author, 'MD2DOC', 'One line description of project.',
      'Miscellaneous'),
 ]
 
